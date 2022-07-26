@@ -134,6 +134,20 @@
             ]
         },
         {
+            "label": "CreateDirectoryBuildMacOS",
+            "command": "mkdir",
+            "args": [
+                "-p",
+                "${workspaceFolder}/build"
+            ],
+            "dependsOn": [
+                "ClearBuildFolder"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
             "label": "CreateDirectoryGLFWMacOS",
             "command": "mkdir",
             "args": [
